@@ -1,6 +1,6 @@
 FROM ncleguizamon/sam-cli-aws:9
 
-ENV JAVA_HOME=//opt/jdk-11/
+ENV JAVA_HOME=/opt/jdk-11/
 ENV PATH=$JAVA_HOME/bin:$PATH
 ENV M2_HOME="/opt/apache-maven-3.6.3"
 ENV PATH=$PATH:$M2_HOME/bin
