@@ -13,3 +13,4 @@ RUN curl https://download.java.net/openjdk/jdk8u41/ri/openjdk-8u41-src-b04-14_ja
 RUN curl https://downloads.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip -o apache-maven-3.6.3-bin.zip && unzip apache-maven-3.6.3-bin.zip && rm apache-maven-3.6.3-bin.zip
 
 RUN ls -all
+ 
